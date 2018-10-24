@@ -2,13 +2,10 @@
   <img src="https://images.atomist.com/sdm/SDM-Logo-Dark.png">
 </p>
 
-# @atomist-seeds/empty-sdm
+# @atomist-blogs/deferred-approval-sdm
 
-[![atomist sdm goals](http://badge.atomist.com/T29E48P34/atomist-seeds/empty-sdm/c796f715-67c3-48ae-8b7c-45c0fd31443f)](https://app.atomist.com/workspace/T29E48P34)
-[![npm version](https://img.shields.io/npm/v/@atomist-seeds/empty-sdm.svg)](https://www.npmjs.com/package/@atomist-seeds/empty-sdm)
-
-The simplest possible [Atomist][atomist] software delivery machine
-(SDM).
+An [Atomist][atomist] software delivery machine (SDM) as an example on how
+to defer goal approval to a command handler in order to collect additional parameters.
 
 Software delivery machines enable you to control your delivery process
 in code.  Think of it as an API for your software delivery.  See the
