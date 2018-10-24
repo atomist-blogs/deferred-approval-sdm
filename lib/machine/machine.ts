@@ -55,7 +55,7 @@ export function machine(
     }).with({
         name: "approval-goal-executor",
         goalExecutor: async gi => {
-            gi.progressLog.write("No doing much");
+            gi.progressLog.write(`Parameters provided in the goal are '${gi.sdmGoal.data}'`);
             return Success;
         },
     });
