@@ -1,16 +1,16 @@
 {
-  "name": "deferred-approval-sdm",
+  "name": "@atomist/deferred-approval-sdm",
   "version": "0.1.0",
-  "description": "my new project",
-  "author": "cdupuis",
+  "description": "Sample SDM that shows how to approve goals with collecting additional parameters",
+  "author": "Atomist",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/atomisthq/deferred-approval-sdm#readme",
+  "homepage": "https://github.com/atomist-blogs/deferred-approval-sdm#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atomisthq/deferred-approval-sdm.git"
+    "url": "https://github.com/atomist-blogs/deferred-approval-sdm.git"
   },
   "bugs": {
-    "url": "https://github.com/atomisthq/deferred-approval-sdm/issues"
+    "url": "https://github.com/atomist-blogs/deferred-approval-sdm/issues"
   },
   "keywords": [
     "atomist",
@@ -21,9 +21,12 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "dependencies": {
-    "@atomist/automation-client": "1.0.0-RC.1",
-    "@atomist/sdm": "1.0.0-RC.1",
-    "@atomist/sdm-core": "1.0.0-RC.1"
+    "@atomist/automation-client": "1.0.0-master.20181019184257",
+    "@atomist/sdm": "1.0.0-master.20181024141507",
+    "@atomist/sdm-core": "1.0.0-deferred-approval.20181024145151",
+    "@atomist/slack-messages": "^1.0.0",
+    "@types/lodash": "^4.14.117",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "@atomist/sdm-local": "1.0.0-RC.1",
